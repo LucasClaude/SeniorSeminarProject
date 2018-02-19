@@ -1,0 +1,432 @@
+body,html {
+
+	font-family: 'Lato', 'sans-serif';
+	background-color: #40b1b0;
+	padding: 0;
+	margin: 0;
+}
+html{
+ position: absolute;
+}
+
+body {
+width: auto;
+height: 95%;
+overflow: hidden;
+
+}
+html{
+width: 100%;
+
+}
+
+
+header{
+	background-color: #40b1b0;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+
+
+}
+
+.header{
+	background-color: black;
+	position: relative;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:100%;
+	min-height: 100px;
+	min-width:1100px;
+    height:100px;
+    position: absolute;
+    background-size: 100%;
+
+}
+
+.header img{
+	float: left;
+	max-height: 80px;
+	margin-left: 0px;
+	padding-left: 0px;
+	position: relative;
+}
+
+.header a {
+
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20px;
+
+
+}
+
+.title{
+	font-size: 75px;
+	
+
+}
+
+.ul li{
+float:left;
+display: inline;
+padding: 19px 20px 0 20px;
+
+
+}
+.ul li a{
+
+position: relative;
+padding: 1px;
+
+}
+.header #branding{
+ float: left;
+ 
+}
+
+.header #branding h1{
+ margin: 0;
+
+}
+
+.header nav{
+	float:right;
+	margin-top: 10px;
+}
+
+body .highlight, body .current a{
+	color: #40b1b0;
+
+}
+
+body .highlight {
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.header a:hover{
+	color: #94d1d0;
+	
+}
+
+
+
+
+h1{
+	opacity: 2;
+}
+
+
+html{
+ position: absolute;
+}
+
+
+
+
+
+.dropdownA {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+
+background: url("images/addidasbanner.png")no-repeat center top;
+
+background-size: 50%;
+
+
+}
+
+.dropdownA:hover h2{
+color:#40b1b0;
+
+}
+
+.dropdownA h2 {
+background: rgba(0,0,0,0.75);
+margin:auto;
+height: 200px;
+font-size: 100px;
+padding-top: 150px;
+padding: auto;
+ 
+
+}
+
+
+
+.dropdownB {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+
+background: url("images/nikelogo.jpg")no-repeat center top;
+
+background-size: 45%;
+
+
+}
+
+.dropdownB:hover h2{
+color:#40b1b0;
+
+}
+
+.dropdownB h2 {
+background: rgba(0,0,0,0.75);
+margin:auto;
+height: 200px;
+font-size: 100px;
+padding-top: 150px;
+padding: auto;
+ 
+
+}
+
+
+.dropdownC {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: url("images/underarm.png")no-repeat center center;
+    background-size: 40%;
+}
+
+.dropdownC:hover h2{
+color:#40b1b0;
+
+}
+
+.dropdownC h2 {
+background: rgba(0,0,0,0.75);
+margin:auto;
+height: 200px;
+font-size: 100px;
+padding-top: 150px;
+padding: auto;
+ 
+
+}
+
+
+.dropdownD {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+
+background: url("images/jordanlogo.png")no-repeat center top;
+
+background-size: 45%;
+
+
+}
+
+.dropdownD:hover h2{
+color:#40b1b0;
+
+}
+
+.dropdownD h2 {
+background: rgba(0,0,0,0.75);
+margin:auto;
+height: 200px;
+font-size: 100px;
+padding-top: 150px;
+padding: auto;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+.dropdown-content ul li {
+width: 25%;
+height:70px;
+color: #fff;
+float:left;
+display: inline;
+padding-top: 25px;
+font-size: 30px;
+}
+
+
+
+.dropdown-content ul li:hover {
+color: #40b1b0;
+}
+
+.dropdown-content ul{
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.ultraboost {
+
+}
+
+.ultra {
+	 display: none;
+}
+
+
+
+.dropdown-content {
+   
+    background-color: black;
+    position: absolute; 
+    min-width: 160px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.container {
+	width:100%;
+	margin:auto;
+	
+}
+
+/*
+new
+*/
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    overflow: hidden;
+    display: table;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+.overlay-content h1{
+font-size: 50px;
+
+}
+
+
+
+.left{
+	width: 50%;
+	float: left;
+}
+
+
+.ShoePrices{
+	width: 50%;
+	float: right;
+text-align: left;
+
+}
+
+.ShoePrice ul li{
+	display:inline-block;
+	
+
+}
+
+.price {
+	text-align: center;
+}
+
+
+.price ul li{
+	
+
+	
+	text-align: center;
+	right: 0;
+	left: 0;
+	width: 50%;
+
+}
+
+.ShoePrice ul {
+list-style-type: none;
+}
+
+
+
+
+
+.overlay-content img{
+min-width: 80%;
+max-width: 80%;
+min-height: 80%;
+max-height: 80%;
+padding-left: 90px; 
+     /* ie8 */
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: inline-block;
+    transition: 0.3s;
+
+}
+
+.overlay a:hover{
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: sticky;
+  float: right;
+    font-size: 60px;
+    margin: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
